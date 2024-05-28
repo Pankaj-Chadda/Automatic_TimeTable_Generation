@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "M1/wsgi.py"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "DATABASE_URL": "sqlite:////tmp/db.sqlite3"
+    }
+  }
 }
